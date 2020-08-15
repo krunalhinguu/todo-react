@@ -1,0 +1,53 @@
+body {
+    background: rgb(238, 174, 202);
+    background: linear-gradient( 90deg, rgba(238, 174, 202, 1) 0%, rgba(190, 233, 148, 1) 100%);
+}
+
+.app {
+    background: #3f3460;
+    height: 500px;
+    overflow-y: scroll;
+    width: 400px;
+    margin: 40px auto;
+}
+
+#to-do-form input {
+    background: rgb(27, 112, 137);
+    border: 0;
+    width: 200px;
+    height: 50px;
+    padding: 0 20px;
+    margin: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    color: #fff;
+}
+
+#to-do-form input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#to-do-form input:focus,
+#to-do-form button:focus {
+    outline: none;
+}
+
+#to-do-form button {
+    background: rgb(202, 156, 24);
+    border: 0;
+    cursor: pointer;
+    font-weight: bolder;
+    width: 80px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: #fff;
+}
